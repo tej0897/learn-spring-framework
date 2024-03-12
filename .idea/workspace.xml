@@ -4,17 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d1bb26a1-d9ef-477b-804f-bcc5a6376281" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/spring/core/AppConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="d1bb26a1-d9ef-477b-804f-bcc5a6376281" name="Changes" comment="IOC container commit">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/spring/core/AppConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/spring/core/AppConfig.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/spring/core/Bike.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/spring/core/Bike.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/spring/core/Car.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/spring/core/Car.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/spring/core/Client.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/spring/core/Client.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/spring/core/Cycle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/spring/core/Cycle.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/spring/core/Traveler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/spring/core/Traveler.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/spring/core/Vehicle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/spring/core/Vehicle.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -85,6 +82,14 @@
       <option name="presentableId" value="Default" />
       <updated>1710165149957</updated>
     </task>
+    <task id="LOCAL-00001" summary="IOC container commit">
+      <created>1710222392024</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1710222392024</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -100,5 +105,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="IOC container commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="IOC container commit" />
   </component>
 </project>
