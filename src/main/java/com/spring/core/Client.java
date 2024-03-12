@@ -2,14 +2,15 @@ package com.spring.core;
 
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.annotation.AnnotationConfigApplicationContext;
+import org.springframework.context.annotation.ComponentScan;
 
 public class Client {
     public static void main(String[] args) {
 
-        Vehicle vehicle = new Cycle();
+       /* Vehicle vehicle = new Cycle();
 
         Traveler traveler = new Traveler(vehicle);
-        traveler.startJourney();
+        traveler.startJourney(); */
 
         // creating spring IOC container
         // Read config class
