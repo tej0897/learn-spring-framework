@@ -1,2 +1,5 @@
-package com.spring.core;public interface Vehicle {
+package com.spring.core;
+
+public interface Vehicle {
+    void move();
 }
