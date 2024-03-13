@@ -4,14 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d1bb26a1-d9ef-477b-804f-bcc5a6376281" name="Changes" comment="IOC container commit">
+    <list default="true" id="d1bb26a1-d9ef-477b-804f-bcc5a6376281" name="Changes" comment="IOC container commit - Annotation based config">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/spring/core/Controller/DemoController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/spring/core/DemoClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/spring/core/Repository/DemoRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/spring/core/Service/DemoService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/spring/core/AppConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/spring/core/AppConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/spring/core/Bike.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/spring/core/Bike.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/spring/core/Car.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/spring/core/Car.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/spring/core/Client.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/spring/core/Client.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/spring/core/Cycle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/spring/core/Cycle.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/spring/core/Traveler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/spring/core/Traveler.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,7 +51,7 @@
     &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.DemoClient">
     <configuration name="Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.spring.core.Client" />
       <module name="learn-spring-framework" />
@@ -67,8 +65,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="DemoClient" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.spring.core.DemoClient" />
+      <module name="learn-spring-framework" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.spring.core.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.DemoClient" />
         <item itemvalue="Application.Client" />
       </list>
     </recent_temporary>
@@ -89,7 +101,21 @@
       <option name="project" value="LOCAL" />
       <updated>1710222392024</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="IOC container commit - Annotation based config">
+      <created>1710223597707</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1710223597707</updated>
+    </task>
+    <task id="LOCAL-00003" summary="IOC container commit - Annotation based config">
+      <created>1710223733259</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1710223733259</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -106,6 +132,7 @@
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="IOC container commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="IOC container commit" />
+    <MESSAGE value="IOC container commit - Annotation based config" />
+    <option name="LAST_COMMIT_MESSAGE" value="IOC container commit - Annotation based config" />
   </component>
 </project>
