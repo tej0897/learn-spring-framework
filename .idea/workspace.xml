@@ -4,13 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d1bb26a1-d9ef-477b-804f-bcc5a6376281" name="Changes" comment="Stereotype Annotations commit">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/spring/core/DependencyInjection/Client.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/spring/core/DependencyInjection/EmailService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/spring/core/DependencyInjection/MessageSender.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/spring/core/DependencyInjection/MessageService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/spring/core/DependencyInjection/SMSService.java" afterDir="false" />
+    <list default="true" id="d1bb26a1-d9ef-477b-804f-bcc5a6376281" name="Changes" comment="Without Dependency Injection">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/spring/core/DependencyInjection/AppConfig.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/spring/core/DependencyInjection/Client.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/spring/core/DependencyInjection/Client.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/spring/core/DependencyInjection/EmailService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/spring/core/DependencyInjection/EmailService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/spring/core/DependencyInjection/MessageSender.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/spring/core/DependencyInjection/MessageSender.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/spring/core/DependencyInjection/SMSService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/spring/core/DependencyInjection/SMSService.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -20,8 +20,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="Interface" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -137,7 +137,14 @@
       <option name="project" value="LOCAL" />
       <updated>1710338799193</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Without Dependency Injection">
+      <created>1710399580413</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1710399580413</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -156,6 +163,7 @@
     <MESSAGE value="IOC container commit" />
     <MESSAGE value="IOC container commit - Annotation based config" />
     <MESSAGE value="Stereotype Annotations commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="Stereotype Annotations commit" />
+    <MESSAGE value="Without Dependency Injection" />
+    <option name="LAST_COMMIT_MESSAGE" value="Without Dependency Injection" />
   </component>
 </project>
