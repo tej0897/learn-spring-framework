@@ -4,13 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d1bb26a1-d9ef-477b-804f-bcc5a6376281" name="Changes" comment="Without Dependency Injection">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/spring/core/DependencyInjection/AppConfig.java" afterDir="false" />
+    <list default="true" id="d1bb26a1-d9ef-477b-804f-bcc5a6376281" name="Changes" comment="Using Dependency Injection">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/spring/core/DependencyInjection/Client.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/spring/core/DependencyInjection/Client.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/spring/core/DependencyInjection/EmailService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/spring/core/DependencyInjection/EmailService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/spring/core/DependencyInjection/MessageSender.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/spring/core/DependencyInjection/MessageSender.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/spring/core/DependencyInjection/SMSService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/spring/core/DependencyInjection/SMSService.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -144,7 +141,14 @@
       <option name="project" value="LOCAL" />
       <updated>1710399580413</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Using Dependency Injection">
+      <created>1710401370198</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1710401370198</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -164,6 +168,7 @@
     <MESSAGE value="IOC container commit - Annotation based config" />
     <MESSAGE value="Stereotype Annotations commit" />
     <MESSAGE value="Without Dependency Injection" />
-    <option name="LAST_COMMIT_MESSAGE" value="Without Dependency Injection" />
+    <MESSAGE value="Using Dependency Injection" />
+    <option name="LAST_COMMIT_MESSAGE" value="Using Dependency Injection" />
   </component>
 </project>
