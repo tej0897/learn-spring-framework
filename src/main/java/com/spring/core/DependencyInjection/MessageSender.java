@@ -7,15 +7,27 @@ import org.springframework.stereotype.Component;
 @Component
 public class MessageSender {
 
-    private final MessageService messageService;
+    private MessageService messageService;
 
-    @Autowired
+    private MessageService smsService;
+
+
     public MessageSender(@Qualifier("emailService") MessageService messageService){
         this.messageService = messageService;
+        System.out.println("Constructor based DI - 1");
+    }
+
+    @Autowired
+    public MessageSender(MessageService messageService,
+                         MessageService smsService){
+        this.messageService = messageService;
+        this.smsService = smsService;
+        System.out.println("Constructor based DI - 2");
     }
 
     public void sendMessage(String message){
         this.messageService.sendMessage(message);
+        this.smsService.sendMessage(message);
     }
 
 }
