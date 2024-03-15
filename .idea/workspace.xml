@@ -4,10 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d1bb26a1-d9ef-477b-804f-bcc5a6376281" name="Changes" comment="Using Dependency Injection using Constructor">
+    <list default="true" id="d1bb26a1-d9ef-477b-804f-bcc5a6376281" name="Changes" comment="Using Dependency Injection using Setter">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/spring/core/DependencyInjection/ConstructorVsSetterBasedDIInjection.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/spring/core/DependencyInjection/EmailService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/spring/core/DependencyInjection/EmailService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/spring/core/DependencyInjection/MessageSender.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/spring/core/DependencyInjection/MessageSender.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -155,7 +154,14 @@
       <option name="project" value="LOCAL" />
       <updated>1710490196268</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Using Dependency Injection using Setter">
+      <created>1710493174122</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1710493174122</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -177,6 +183,7 @@
     <MESSAGE value="Without Dependency Injection" />
     <MESSAGE value="Using Dependency Injection" />
     <MESSAGE value="Using Dependency Injection using Constructor" />
-    <option name="LAST_COMMIT_MESSAGE" value="Using Dependency Injection using Constructor" />
+    <MESSAGE value="Using Dependency Injection using Setter" />
+    <option name="LAST_COMMIT_MESSAGE" value="Using Dependency Injection using Setter" />
   </component>
 </project>
