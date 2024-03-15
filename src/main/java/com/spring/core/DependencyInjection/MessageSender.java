@@ -8,9 +8,8 @@ import org.springframework.stereotype.Component;
 public class MessageSender {
 
     private MessageService messageService;
-
     private MessageService smsService;
-
+/*
 
     public MessageSender(@Qualifier("emailService") MessageService messageService){
         this.messageService = messageService;
@@ -25,8 +24,24 @@ public class MessageSender {
         System.out.println("Constructor based DI - 2");
     }
 
+ */
+
+
+    public void setMessageService(@Qualifier("emailService")
+            MessageService messageService) {
+        this.messageService = messageService;
+        System.out.println("Setter based DI");
+    }
+
+    @Autowired
+    public void setSmsService(@Qualifier("emailService")
+            MessageService smsService) {
+        this.smsService = smsService;
+        System.out.println("Setter based DI - 2");
+    }
+
     public void sendMessage(String message){
-        this.messageService.sendMessage(message);
+//        this.messageService.sendMessage(message);
         this.smsService.sendMessage(message);
     }
 
