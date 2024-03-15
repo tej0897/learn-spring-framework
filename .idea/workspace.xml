@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d1bb26a1-d9ef-477b-804f-bcc5a6376281" name="Changes" comment="Using Dependency Injection">
+    <list default="true" id="d1bb26a1-d9ef-477b-804f-bcc5a6376281" name="Changes" comment="Using Dependency Injection using Constructor">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/spring/core/DependencyInjection/EmailService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/spring/core/DependencyInjection/EmailService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/spring/core/DependencyInjection/MessageSender.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/spring/core/DependencyInjection/MessageSender.java" afterDir="false" />
@@ -148,7 +148,14 @@
       <option name="project" value="LOCAL" />
       <updated>1710401370198</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Using Dependency Injection using Constructor">
+      <created>1710490196268</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1710490196268</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -169,6 +176,7 @@
     <MESSAGE value="Stereotype Annotations commit" />
     <MESSAGE value="Without Dependency Injection" />
     <MESSAGE value="Using Dependency Injection" />
-    <option name="LAST_COMMIT_MESSAGE" value="Using Dependency Injection" />
+    <MESSAGE value="Using Dependency Injection using Constructor" />
+    <option name="LAST_COMMIT_MESSAGE" value="Using Dependency Injection using Constructor" />
   </component>
 </project>
