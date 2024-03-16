@@ -4,9 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d1bb26a1-d9ef-477b-804f-bcc5a6376281" name="Changes" comment="Dependency commit - final">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/spring/core/Beans/BeanAnnotationDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="d1bb26a1-d9ef-477b-804f-bcc5a6376281" name="Changes" comment="beans commit-1">
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/spring/core/Beans/BeanAnnotationDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/spring/core/Beans/BeanAnnotationDemo.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -182,7 +181,14 @@
       <option name="project" value="LOCAL" />
       <updated>1710510203375</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="beans commit-1">
+      <created>1710590757713</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1710590757714</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -206,6 +212,7 @@
     <MESSAGE value="Using Dependency Injection using Constructor" />
     <MESSAGE value="Using Dependency Injection using Setter" />
     <MESSAGE value="Dependency commit - final" />
-    <option name="LAST_COMMIT_MESSAGE" value="Dependency commit - final" />
+    <MESSAGE value="beans commit-1" />
+    <option name="LAST_COMMIT_MESSAGE" value="beans commit-1" />
   </component>
 </project>
