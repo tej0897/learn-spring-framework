@@ -17,6 +17,15 @@ class Student{
         System.out.println("Student class method called...");
         address.print();
     }
+
+    public void init(){
+        System.out.println("Initialization method logic...");
+    }
+
+    public void destroy(){
+        System.out.println("Destruction method logic...");
+    }
+
 }
 
 class Address{
@@ -28,12 +37,12 @@ class Address{
 @Configuration
 class AppConfig{
 
-    @Bean
+    @Bean(name = "address")
     public Address address(){
         return new Address();
     }
 
-    @Bean
+    @Bean(name = "student" , initMethod = "init", destroyMethod = "destroy")
     public Student student(){
         return new Student(address());
     }
@@ -41,22 +50,21 @@ class AppConfig{
 
 public class BeanAnnotationDemo {
     public static void main(String[] args) {
-        ApplicationContext applicationContext = new AnnotationConfigApplicationContext(AppConfig.class);
-        //Student student = applicationContext.getBean(Student.class);
 
-        //setting application context using bean name instead of class
-        Student student = (Student) applicationContext.getBean("student");
+        try(var applicationContext = new AnnotationConfigApplicationContext(AppConfig.class))
+        {
+            //Student student = applicationContext.getBean(Student.class);
+            //setting application context using bean name instead of class
+            Student student = (Student) applicationContext.getBean("student");
+            student.print();
 
-        student.print();
+            // to get bean names:
 
-        // to get bean names:
-
-        String [] beanNames = applicationContext.getBeanDefinitionNames();
-        for (String bean : beanNames){
-            System.out.println(bean);
+            String [] beanNames = applicationContext.getBeanDefinitionNames();
+            for (String bean : beanNames){
+                System.out.println(bean);
+            }
         }
-
-
     }
 
 }
