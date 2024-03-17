@@ -1,0 +1,127 @@
+Spring Framework Core:
+
+    Contents:
+    1. Tightly Coupling vs Loose Coupling
+    2. IOC - Inversion of Control
+    3. Dependency Injection
+    4. Annotation based config
+    5. @Qualifier and @Primary Annotations
+    6. Java Based config vs Annotation Based config
+
+_____________________________________________
+
+Tightly Coupling vs Loose Coupling
+
+Let's take an example of a Traveler who wants to use CAR class to start his journey. Usually we do the following:
+
+    1. we create a Car class
+    2. define car's attributes
+    3. create a traveler class and create a car's instance
+    4. from main class, call traveler.start()
+
+In this scenario, the Traveler is tightly coupled with car. If in case the traveler wants to change the mode of transport from car to bike, then he has to create new bike class and make all the changes again.
+
+This is called tightly coupled.
+
+        ******
+
+How to introduce loose coupling?
+We can use Java Interface or Abstract class to achieve loose coupling.
+
+    1. Create a Vehicle Interface.
+    2. Vehicles like car, bike or cycle can implement the Vehicle Interface.
+    3. from main class, create new instance from Vehicle interface and pass which vehicle as Argument.
+
+This method is loose coupled.
+
+_____________________________________________
+
+IOC - Inversion of Control
+
+In above example, we are creating new instances for Vehicle and Traveler manually. For an enterprise level application, we will have to create thousands of objects and doing it manually is difficult.
+
+When we create Objects using "new"  keyword, those will be stored in Heap Memory in JVM directly.
+
+In case of IOC, the objects like car, bike, cycle etc will be stored in a Spring Container in JVM. 
+
+This is where IOC comes into picture in Spring Framework.
+It creates Objects and manages it's life-cycle for us. These objects are called Spring Beans.
+
+What is a Bean?
+    Java Object, created and managed by Spring IOC.
+
+IOC is responsible for injecting one Object into another object by using Dependency Injection.
+
+IOC Container uses info provided in config file (or annotations) to create objects.
+It uses Dependency Injection to supply objects with their dependencies.
+
+Using IOC, objects are more
+    1. loosely coupled
+    2. easier to test
+    3. dependencies can be easily swapped out with mock Objects.
+
+
+        ******
+
+Types of IOC: (both are interfaces and they have many implementations)
+    1. Bean Factory
+    2. ApplicationContext
+
+Bean Factory:
+    creates, configures and manages bean's entire LifeCycle.
+
+ApplicationContext:
+    Advanced Container, provides enterprise app level features.
+    1. creates, configures and manages bean's entire LifeCycle.
+    2. Provides messaging (internationalization functionality)
+    3. Publication functionality.
+    4. Annotation based dependency injection.
+
+Types of config:
+    1. Java based config.
+    2. Annotations based config.
+    3. XML based config.
+
+_____________________________________________
+
+Annotation based Config:
+
+    1. Annotate class with @Component
+    2. Use @ComponentScan to specify package name for scanning the classes that are annotated with @Component annotation
+    3. Use @Autowired to automatically inject the Spring Bean.
+    4. Use @Qualifier to avoid confusion between multiple Spring Beans of the same type.
+    5. Create Spring IOC (ApplicationContext) and Retrieve Bean from Spring IOC.
+
+_____________________________________________
+
+@Qualifier and @Primary Annotations
+
+We use @Primary annotation to give higher preference to a bean when there are multiple beans of the same type. 
+
+Example:
+    We can choose which data source to inject in different environment.
+    Ex: MYSQL data source can be annotated with @Primary while testing for local environment, @Primary to PostgreSQL for prod and so on.
+
+
+
+The following annotations are derived from @Component annotation.
+    1. @Controller  (Controller layer)
+    2. @Service     (Service layer)
+    3. @Repository  (DAO layer)
+
+
+_____________________________________________
+
+Java Based config vs Annotation Based config:
+
+Java :
+    a. Create a method and use @Bean annotation
+    b. We have to write code to create objects and inject dependencies
+    c. Annotations used: @Configuration and @Bean
+
+Annotation:
+    a. Annotate class with @Component
+    b. Spring IOC will take care of creating objects and injecting dependencies
+    c. Annotations used: @Component, @Repository, @Service, @Controller, @Primary, @Qualifier, @Autowired @ComponentScan
+
+_____________________________________________
