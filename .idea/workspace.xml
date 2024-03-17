@@ -4,9 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d1bb26a1-d9ef-477b-804f-bcc5a6376281" name="Changes" comment="beans commit-2">
+    <list default="true" id="d1bb26a1-d9ef-477b-804f-bcc5a6376281" name="Changes" comment="beans commit-3">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/spring/core/Beans/BeanAnnotationDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/spring/core/Beans/BeanAnnotationDemo.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -196,7 +195,14 @@
       <option name="project" value="LOCAL" />
       <updated>1710591702609</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="beans commit-3">
+      <created>1710592704040</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1710592704040</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -222,6 +228,7 @@
     <MESSAGE value="Dependency commit - final" />
     <MESSAGE value="beans commit-1" />
     <MESSAGE value="beans commit-2" />
-    <option name="LAST_COMMIT_MESSAGE" value="beans commit-2" />
+    <MESSAGE value="beans commit-3" />
+    <option name="LAST_COMMIT_MESSAGE" value="beans commit-3" />
   </component>
 </project>
