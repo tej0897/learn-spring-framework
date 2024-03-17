@@ -1,0 +1,31 @@
+Bean:
+
+@Bean indicates that a method produces a bean to be managed by Spring Container.
+
+By default, bean name is same as method name.
+We can specify the bean name using @Bean(name="beanName")
+
+@Bean annotation provides "init()" and "destroy()" to perform certain actions after bean initialization or before bean destruction by a container.
+
+
+_____________________________________________
+
+Spring Bean Scopes:
+
+@Scope Annotation:
+    a. used to define a scope of a bean.
+    b. Define the scope of a @Component class or a @Bean definition
+
+
+
+
+@Scope types:
+    * Singleton
+    * prototype
+    * request
+    * session
+    * application
+    * websocket
+
+Last 4 scopes are available only in web-aware apps.
+
